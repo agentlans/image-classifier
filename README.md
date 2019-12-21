@@ -59,11 +59,14 @@ Unknown/
     Snoopy.jpg
 ```
 
-This repository contains a subset of [Kaggle Cats and Dogs Dataset from Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=54765). To run the example, run `python main.py Training/ Unknown/` and browse the `Unknown/` directory when it's finished.
+This repository contains a randomly chosen subset of [Kaggle Cats and Dogs Dataset from Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=54765). To run the example:
+1. unzip `CatsAndDogs.zip` in place
+2. run `python main.py Training/ Unknown/`
+3. browse the `Unknown/` directory when it's finished.
 
 ## Author, license
 Copyright (C) 2019 Alan Tseng
+
 License: MIT License
 
-The images in the `Training/` and `Unknown/` directories are from Microsoft and isn't part of this software's license.
-
+The images in the `CatsAndDogs.zip` are from Microsoft and aren't covered under this software's license.
